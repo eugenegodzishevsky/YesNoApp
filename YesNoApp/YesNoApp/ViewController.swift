@@ -13,13 +13,16 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        answerButton.setTitleColor(.purple, for: .selected)
     }
 
 
     @IBAction func answerButtonAction(_ sender: Any) {
         let answer = Bool.random()
         answerLabel.text = ""
+        answerLabel.highlightedTextColor = UIColor.purple
+        answerLabel.isHighlighted = true
+        self.answerButton.isSelected = true
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
             self.answerLabel.text = answer ? "YES" : "NO"

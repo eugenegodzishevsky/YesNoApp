@@ -31,7 +31,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54.666666666666629" id="1Va-Xd-q9j"/>
                                 </constraints>
-                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <color key="tintColor" red="0.93413132430000001" green="0.97223550079999999" blue="0.99081701040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Get answer">
                                     <fontDescription key="titleFontDescription" type="system" weight="medium" pointSize="18"/>
