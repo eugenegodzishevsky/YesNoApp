@@ -58,11 +58,11 @@
 			children = (
 				DAA33DDF2A5935CB008E34D8 /* AppDelegate.swift */,
 				DAA33DE12A5935CB008E34D8 /* SceneDelegate.swift */,
-				DAA33DE32A5935CB008E34D8 /* ViewController.swift */,
 				DAA33DE52A5935CB008E34D8 /* Main.storyboard */,
 				DAA33DE82A5935CD008E34D8 /* Assets.xcassets */,
 				DAA33DEA2A5935CD008E34D8 /* LaunchScreen.storyboard */,
 				DAA33DED2A5935CD008E34D8 /* Info.plist */,
+				DAA33DE32A5935CB008E34D8 /* ViewController.swift */,
 			);
 			path = YesNoApp;
 			sourceTree = "<group>";
